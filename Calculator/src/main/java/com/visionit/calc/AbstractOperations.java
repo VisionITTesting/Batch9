@@ -1,6 +1,6 @@
 package com.visionit.calc;
 
-public abstract class AbstractCalcOperations {
+public abstract class AbstractOperations {
 
 	protected int num1;
 	protected int num2;

@@ -1,6 +1,6 @@
 package com.visionit.calc;
 
-public class Division extends AbstractCalcOperations {
+public class Division extends AbstractOperations {
 
 	public Division(int num1,int num2) {
 		super.num1 = num1;

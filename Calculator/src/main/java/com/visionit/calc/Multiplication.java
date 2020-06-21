@@ -1,6 +1,6 @@
 package com.visionit.calc;
 
-public class Multiplication extends AbstractCalcOperations {
+public class Multiplication extends AbstractOperations {
 
 	public Multiplication(int num1,int num2) {
 		super.num1 = num1;

@@ -15,7 +15,7 @@ public class Runner {
 		
 	    int result = 0;
 	
-	    AbstractCalcOperations calcOperation=null;
+	    AbstractOperations calcOperation=null;
 	    
 	    if (operations.equalsIgnoreCase("add")) {
 	    	calcOperation = new Addition(num1,num2);
