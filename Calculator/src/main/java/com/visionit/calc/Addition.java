@@ -28,6 +28,10 @@ public class Addition extends AbstractOperations {
 		performAddOps();
 	}
 	
+	public void newMethod() {
+		
+	}
+	
 
 
 }
