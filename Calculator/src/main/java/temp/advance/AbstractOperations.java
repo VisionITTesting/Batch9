@@ -1,6 +1,6 @@
-package com.visionit.calc;
+package temp.advance;
 
-public abstract class AbstractOperations {
+abstract class AbstractOperations {
 
 	protected int num1;
 	protected int num2;

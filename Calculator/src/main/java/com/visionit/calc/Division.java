@@ -1,19 +1,19 @@
 package com.visionit.calc;
 
-public class Division extends AbstractOperations {
-
-	public Division(int num1,int num2) {
-		super.num1 = num1;
-		super.num2 = num2;
+public class Division {
+	
+	int number1;
+	int number2;
+	float result;
+	
+	public Division(int a, int b) {
+		number1 = a;
+		number2 = b;
 	}
 	
-	private void performDivision() {
-		super.result = super.num1 / super.num2;
-	}
-	
-	@Override
-	protected void performOperation() {
-		performDivision();
+	public float performOperation() {
+		result = number1 / number2;
+		return result;
 	}
 
 }

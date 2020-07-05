@@ -1,8 +1,8 @@
-package com.visionit.calc;
+package temp.advance;
 
 import java.util.Scanner;
 
-public class Runner {
+ class Runner {
 	
 	public static void main(String[] args) {
 
@@ -18,11 +18,11 @@ public class Runner {
 	    AbstractOperations calcOperation=null;
 	    
 	    if (operations.equalsIgnoreCase("add")) {
-	    	calcOperation = new Addition(num1,num2);
+	    	calcOperation = new AdditionNotToBeUsed(num1,num2);
 	    }else if (operations.equalsIgnoreCase("sub")) {
-	    	 calcOperation = new Substraction(num1,num2);
+	    	 calcOperation = new SubstractionNotToBeUsed(num1,num2);
 	    }else if (operations.equalsIgnoreCase("multiply")) {
-	    	 calcOperation = new Multiplication(num1,num2);
+	    	 calcOperation = new MultiplicationNotToBeUsed(num1,num2);
 	    }
 	    
 	    

@@ -1,8 +1,8 @@
-package com.visionit.calc;
+package temp.advance;
 
-public class Multiplication extends AbstractOperations {
+ class MultiplicationNotToBeUsed extends AbstractOperations {
 
-	public Multiplication(int num1,int num2) {
+	public MultiplicationNotToBeUsed(int num1,int num2) {
 		super.num1 = num1;
 		super.num2 = num2;
 	}

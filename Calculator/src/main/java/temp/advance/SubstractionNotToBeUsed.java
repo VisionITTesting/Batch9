@@ -1,8 +1,8 @@
-package com.visionit.calc;
+package temp.advance;
 
-public class Substraction extends AbstractOperations {
+ class SubstractionNotToBeUsed extends AbstractOperations {
 
-	public Substraction(int num1,int num2) {
+	public SubstractionNotToBeUsed(int num1,int num2) {
 		super.num1 = num1;
 		super.num2 = num2;
 	}
