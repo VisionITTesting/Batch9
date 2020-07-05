@@ -1,7 +1,7 @@
 package com.visionit.calc;
 
 public class Division {
-	
+
 	int number1;
 	int number2;
 	float result;
