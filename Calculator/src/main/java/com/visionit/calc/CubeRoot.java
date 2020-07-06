@@ -1,14 +1,19 @@
 package com.visionit.calc;
 
 public class CubeRoot {
+double num1;
+double result;
 
-	public static void main(String[] args) {
-
-		double x = 27;
-		double y = 81;
-		System.out.println(Math.cbrt(x));
-		System.out.println(Math.cbrt(y));
-
-	}
-
+public CubeRoot(double a) {
+	a=num1;
+	
+}
+public double PerformOperation() {
+	
+	result=Math.cbrt(num1);
+	return result;
+	
+	
+	
+}
 }
